@@ -16,5 +16,5 @@ stages:
       size: 150
     - path: serving/app/data/model.joblib.gz
       hash: md5
-      md5: c340cdb4b618e88aee1b2a026d94246c
-      size: 128491833
+      md5: 023e9777a8268e00c2d9d28c84acdb0f
+      size: 128491764
