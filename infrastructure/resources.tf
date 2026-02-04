@@ -98,6 +98,10 @@ resource "aws_iam_access_key" "github_actions" {
   user = aws_iam_user.github_actions.name
 }
 
+output "access_key_id" {
+  value = aws_iam_access_key.github_actions.id
+}
 output "secret" {
   value = aws_iam_access_key.github_actions.secret
+  sensitive = true
 }
