@@ -85,7 +85,10 @@ resource "aws_iam_user_policy" "cdk_policy" {
             "ecr:UploadLayerPart",
             "ecr:CompleteLayerUpload",
             "ecr:BatchCheckLayerAvailability",
-            "ecr:PutImage"
+            "ecr:SetRepositoryPolicy",
+            "ecr:PutImage",
+            "ecr:PutImageTagMutability",
+            "ecr:PutImageScanningConfigurationv"
           ],
           "Resource": "*"
         }
