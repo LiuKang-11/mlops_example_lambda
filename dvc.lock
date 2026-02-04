@@ -6,8 +6,8 @@ stages:
     deps:
     - path: training/
       hash: md5
-      md5: 616f643c531702a7f51a57bcc6227327.dir
-      size: 4163
+      md5: 3aa2b9f74f606b853aea08335c030a8b.dir
+      size: 4158
       nfiles: 2
     outs:
     - path: serving/app/data/metrics.json
@@ -16,5 +16,5 @@ stages:
       size: 150
     - path: serving/app/data/model.joblib.gz
       hash: md5
-      md5: 4632142312b448927a9bbe3069eacc21
-      size: 128491208
+      md5: c340cdb4b618e88aee1b2a026d94246c
+      size: 128491833
