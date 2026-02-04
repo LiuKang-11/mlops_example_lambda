@@ -105,4 +105,4 @@ def freeze_model_file_requirements(requirements_file: str, package_prefixes: Lis
 if __name__ == "__main__":
     main()
 
-#retrigger training pipeline 222222222
+#retrigger training pipeline 2222
