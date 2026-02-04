@@ -76,6 +76,8 @@ resource "aws_iam_user_policy" "cdk_policy" {
         {
           "Effect": "Allow",
           "Action": [
+            "ecr:CreateRepository",
+            "ecr:TagResource",
             "ecr:DescribeRepositories",
             "ecr:DescribeImages",
             "ecr:GetAuthorizationToken",
@@ -87,6 +89,7 @@ resource "aws_iam_user_policy" "cdk_policy" {
           ],
           "Resource": "*"
         }
+        
 
   ]
 }
